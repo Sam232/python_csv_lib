@@ -1,0 +1,23 @@
+CSV file is a plain text file that uses specific structuring to arrange tabular data. 
+NB Read ASCII and UNICODE characters
+Comma Separated Values(CSV) contains text separated from each other by a delimiter. Mostly, the first line in a csv file contains the header describing the below data column. To parse a CSV file, the delimiter used by the CSV file has to be known. CSV files are the best file format for exporting data from a spreadsheet or database for use or import into another program.
+
+Imported CSV files can be used for data analysis etc. Any programming language that supports text file input or string manipulation can work with CSV file.
+
+You'll note that you have four CSV-related formats available, as follows:
+CSV UTF-8 (Comma delimited)
+CSV (Comma delimited)
+CSV (Macintosh)
+CSV (MS-DOS)
+
+Python with keyword simplifies exception handling and automatically closes a file. Static methods behave like functions and can be called inside a class or by the class instance.
+
+Implicit means implied but not stated and explicit means stated plainly. The reader method in csv library has additional options which can be used to handle different styles of csv files. 
+Below are the options:
+1. delimiter: This option is used to specify the character used to separate the fields.
+2. quotechar: This option specifies the character used to surround a field
+3. escapechar: This option is used to specify the character used to escape a delimiter.
+
+quoting=csv.QUOTE_MINIMAL -> This option quotes field only when the field contains the defined delimiter or quotechar.
+quoting=csv.QUOTE_ALL -> This option will quote all fields.
+quoting=csv.QUOTE_NONNUMERIC -> This option will quote all fields containing text data and convert all numeric fields to float values.
